@@ -33,7 +33,7 @@ const Projects = () => {
                         <Project title="Научиться учиться"
                                  img={howToLearnPic}
                                  link="https://how-to-learn-rust.vercel.app/"
-                                 github="https://github.com/kronos2033/how-to-learn"
+                                 github="https://github.com/rngqd/how-to-learn"
                                  type="Учебная верстка"
                         />
                     </div>
@@ -41,7 +41,7 @@ const Projects = () => {
                         <Project title="Путешествия по России"
                                  img={russianTravelPic}
                                  link="https://russian-travel-phi.vercel.app/"
-                                 github="https://github.com/kronos2033/russian-travel"
+                                 github="https://github.com/rngqd/russian-travel"
                                  type="Учебная верстка"
                         />
                     </div>

@@ -62,13 +62,13 @@ const NavBarIcons = ({mode, setMode}) => {
                       className="w-6 mr-3">
                 <LinkedInIcon />
             </motion.a>
-            <motion.a href="https://t.me/rngod" target={"_blank"}
+            <motion.a href="https://t.me/rngqd" target={"_blank"}
                       whileHover={{y: -2}}
                       whileTap={{scale: 0.9}}
                       className="w-6 mx-3">
                 <TelegramIcon/>
             </motion.a>
-            <motion.a href="https://github.com/kronos2033" target="_blank"
+            <motion.a href="https://github.com/rngqd" target="_blank"
                       whileHover={ { y: -2 } }
                       whileTap={ { scale: 0.9 } }
                       className="w-6 mx-3  rounded-full bg-light dark:bg-dark sm:mx-1"
