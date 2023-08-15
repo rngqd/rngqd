@@ -18,7 +18,7 @@ const Project = ({title, type, img, link, github}) => {
             <Link href={link} target={"_blank"}
                   className="w-full cursor-pointer overflow-hidden rounded-lg"
             >
-                <FramerImg src={img} alt={title} className="w-full h-auto"
+                <FramerImg src={img} alt={title} className="w-full h-auto max-h-[175px] object-cover"
                            whileHover={{scale: 1.05}}
                            transition={{duration: 0.2}}/>
             </Link>
@@ -32,9 +32,9 @@ const Project = ({title, type, img, link, github}) => {
                     </h2>
                 </Link>
                 <div className="w-full mt-2 flex items-center justify-between">
-                    {/*<Link href={link} target={"_blank"} className="underline text-lg font-semibold md:text-base">*/}
-                    {/*    Visit*/}
-                    {/*</Link>*/}
+                    <Link href={link} target={"_blank"} className="underline text-lg font-semibold md:text-base">
+                        Посетить
+                    </Link>
                     <Link href={github} target={"_blank"} className="w-8 md:w-6">
                         <GithubIcon/>
                     </Link>

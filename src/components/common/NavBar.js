@@ -127,10 +127,9 @@ const NavBar = () => {
                                     animate={{scale:1, opacity:1}}
             >
                 <nav className="flex items-center flex-col justify-center">
-                    <CustomMobileLink href="/" title="Home" className="" toggle={handleClick}/>
-                    <CustomMobileLink href="/about" title="About" className="" toggle={handleClick}/>
-                    <CustomMobileLink href="/projects" title="Projects" className="" toggle={handleClick}/>
-                    {/*<CustomMobileLink href="/articles" title="Articles" className="" toggle={handleClick}/>*/}
+                    <CustomMobileLink href="/" title="Домой" className="" toggle={handleClick}/>
+                    <CustomMobileLink href="/about" title="Обо мне" className="" toggle={handleClick}/>
+                    <CustomMobileLink href="/projects" title="Проекты" className="" toggle={handleClick}/>
                 </nav>
                 <nav className="flex items-center justify-center flex-wrap mt-2">
                     <NavBarIcons setMode={setMode} mode={mode}/>

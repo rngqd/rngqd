@@ -6,7 +6,6 @@ import Image from "next/image";
 
 const FeaturedProject = ({type, title, summary, img, link, github}) => {
     const FramerImg = motion(Image)
-    
     return(
         <article className="w-full flex items-center justify-between rounded-3xl relative
                 border border-solid border-dark bg-light shadow-2xl p-12 rounded-br-2xl
@@ -33,16 +32,17 @@ const FeaturedProject = ({type, title, summary, img, link, github}) => {
                 </Link>
                 <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{summary}</p>
                 <div className="mt-2 flex items-center">
-                    <Link href={github} target={"_blank"}
-                          className="w-10"
-                    >
-                        <GithubIcon/>
-                    </Link>
+                    {github &&
+                        <Link href={github} target={"_blank"}
+                              className="w-10 mr-4">
+                            <GithubIcon/>
+                        </Link>
+                    }
                     <Link href={link} target={"_blank"}
-                          className="ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold
+                          className=" rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold
                           dark:bg-light dark:text-dark sm:px-4 sm:text-base"
                     >
-                        Visit project
+                        Посетить сайт
                     </Link>
                 </div>
             </div>
