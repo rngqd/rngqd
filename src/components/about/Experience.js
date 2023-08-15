@@ -55,18 +55,19 @@ const Experience = () => {
                     <Details position="Front-end разработчик"
                              company="AMIO"
                              companyLink="https://www.amio.ru/"
-                             time="2022 - Настоящее время"
+                             time="2022 - 2023"
                              address="Россия, Москва"
                              work="Занимался разработкой различных сайтов, от одностраничных лендингов с использованием
                              JQuery до полноценного SPA на React + Next. Благодаря обширному колличеству проектов и
                              технологий, смог расширить свой опыт в качестве веб-разработчика."
                     />
-                    <Details position="Front-end разработчик"
-                             company="MealHub(стартап)"
-                             companyLink={null}
-                             time="2022"
+                    <Details position="Front-end ментор"
+                             company="SkillFactory"
+                             companyLink="https://skillfactory.ru/"
+                             time="2023 - Настоящее время"
                              address="Удаленная работа"
-                             work="Учавствовал в переносе старого дизайна сайта на специально подготовленный новый."
+                             work="Проведение частных консультаций с учениками курса. Подготовка материала
+                             для консультаций. Проверка домашних заданий и работ."
                     />
                 </ul>
                 
